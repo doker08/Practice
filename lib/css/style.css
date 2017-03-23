@@ -1,0 +1,189 @@
+html, body {padding:0; margin:0; height: 100%;}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px dashed #4e6654;
+    color: #434343;
+}
+
+h2{
+    font-weight: 300;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+body {
+    overflow-x:hidden;
+    background: rgb(239, 239, 244);
+    text-align:center;
+    color: #152a48;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+table {
+    border: 1px solid #1d2b3b;
+}
+th {
+    font-weight: normal;
+    color: #000000;
+    border-bottom: 1px dashed #1d2b3b;
+    padding: 12px 17px;
+    font-weight:bold;
+}
+td {
+    color: #414240;
+    padding: 7px 17px;
+}
+tr:hover td {
+    background: rgb(239, 239, 244);
+}
+
+/*	Header	*/
+
+#header {
+    height: 50px;
+    background: rgb(215, 215, 215);
+    /*box-shadow: 0 0 2px #7d7d7d;*/
+    margin-bottom: 20px;
+}
+
+#header #navbar {
+    width: 985px;
+    margin:0 auto;
+    bottom:1px;
+    padding-top:6px;
+    text-align:left;
+}
+
+#navbar .logo{
+    padding: 3px;
+    border: none;
+    color: #ffffff;
+    font-size: 28px;
+    display: inline-block;
+}
+
+#navbar .right{
+    float: right;
+}
+
+#navbar .right a {
+    display:inline-block;
+    text-decoration:none;
+    color: #737373;
+    font-size:16px;
+    padding: 0 4px 2px;
+    margin: .5em;
+    border-bottom: 2px solid;
+}
+
+#navbar .right .user{
+    color: #ff7b36;
+}
+
+/*	Content	*/
+
+#main{
+    min-height: calc(100vh - 110px);
+    margin-bottom: 20px;
+}
+#content{
+    background-color: #fff;
+    padding: 30px;
+    text-align: left;
+    font-weight: 400;
+    margin: auto;
+    width:78%;
+}
+
+.button1 {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: #ff7b36; /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    border:0;
+}
+.button1:hover { background: #f25518; } /* при наведении курсора мышки */
+.button1:active { background: #e26e30; } /* при нажатии */
+
+.form .space {
+    margin: 8px;
+    display: inline;
+}
+
+.form ul {
+    list-style-type:none;
+    list-style-position:outside;
+    margin-top:10px;
+    padding:0px;
+}
+.form li{
+    padding: 12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+.form li:last-child{
+    border: none;
+}
+
+.form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+
+.form .style1 {
+    height:20px;
+    width:220px;
+    padding:5px 8px;
+}
+
+.form textarea {padding:8px; width:300px;}
+.form button {margin-left:156px;}
+
+.box{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 0 0 8px;
+}
+
+.success{
+    background-color: #adffa6;
+}
+
+.fail{
+    background-color: #ffb0a8;
+}
+
+/*	Footer	*/
+
+.hFooter{
+    clear: both;
+    height: 25px;
+}
+
+#footer {
+    background-color: #8e8e8e;
+    width: 100%;
+    height: 25px;
+    margin-top: -25px;
+    padding: 10px;
+}
+
+#footer .label{
+    padding-top: 4px;
+    width: 960px;
+    text-align: left;
+    margin: auto;
+}
+
+#footer .label .logo{
+    color: #ff7b36;
+    font-weight: bold;
+}
